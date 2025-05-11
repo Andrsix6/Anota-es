@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Avançadas</title>
+</head>
+<body>
+    <p>Segundo fulano:</p>
+    <blockquote cite="#">
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+                alguma coisa ele disse mas não sei oq foi
+
+                        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+
+    </blockquote>
+    
+    <p>
+        Segundo ciclano:
+        <q cite="#">
+                    alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        </q>
+    </p>
+
+    <p>Segundo <a href="#"><cite>beltrano</cite></a>:</p>
+    <p>
+                alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+        alguma coisa ele disse mas não sei oq foi
+    </p>
+
+    <p>
+        O 
+        <abbr title="HyperText Markup Language">HTML</abbr> 
+        é uma linguagem utilizada na criação de sites para a web.
+    </p>
+
+    <address>
+        <p>
+            Telefone: 21 99999-9999
+        </p>
+        <p>
+            Endereço: Rua ABC, XYZ
+        </p>
+    </address>
+
+    <pre><code> 
+console.log();        
+
+var nome = 'Diego';
+
+function () {
+   console.log('olá, mundo!') 
+} 
+</code></pre>
+
+<p>
+    Dentro do código acima, a variável <var>nome</var> é igual a Diego.
+</p>
+
+<samp>Resposta de um computador</samp>
+
+<p>Você deveria apertar as teclas <kbd>CTRL+K</kbd></p>
+
+<time datetime="07-07-25">Dia 7 de julho de 2025</time>
+</body>
+</html>
