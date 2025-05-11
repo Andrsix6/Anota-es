@@ -1,0 +1,17 @@
+button {
+    background-color: blue; /* Cor de fundo inicial */
+  color: white;          /* Cor do texto inicial */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none;         /* Sem borda */
+  cursor: pointer;      /* Cursor muda para mão quando o usuário passa o rato */
+}
+
+button:hover {
+    background-color: green; /* Cor de fundo ao passar o rato */
+  color: yellow;           /* Cor do texto ao passar o rato */
+}
+
+button:active {
+    background-color: orange; /* Cor de fundo ao clicar */
+  color: black;           /* Cor do texto ao clicar */
+}
