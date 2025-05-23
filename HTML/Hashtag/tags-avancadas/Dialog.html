@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog</title>
+</head>
+<body>
+    <button class="js-abrir">Abrir</button>
+
+    <dialog>
+        <p>
+            Veja isso que top!!!
+        </p>
+        <button class="js-fechar">Fechar</button>
+    </dialog>
+
+    <script>
+        let BotaoAbrir = document.querySelector(".js-abrir");
+        let BotaoFechar = document.querySelector(".js-fechar");
+        let Dialog = document.querySelector("dialog");
+
+        BotaoAbrir.addEventListener("click", () => {
+            Dialog.showModal();
+        });
+
+        BotaoFechar.addEventListener("click", () => {
+            Dialog.close();
+        });
+    </script>
+</body>
+</html>
